@@ -11,7 +11,7 @@ class insertion{
 };
 void insertion::input()
 {
-  cout<<"Enter the size of array :";
+  cout<<"Enter the size of array :"<<endl;
   cin>>n;
   cout<<"Enter the elements of array :"<<endl;
   for(int i=0;i<n;i++)
@@ -41,10 +41,6 @@ void insertion::display(){
   for(int l=0;l<n;l++)
     cout<<"A"<<"["<<l<<"]="<<A[l]<<endl;
 }
-
-
-
-
 int main()
 {
   insertion I;
