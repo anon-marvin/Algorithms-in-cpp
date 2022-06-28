@@ -18,9 +18,7 @@ int main()
   {
     for (int l = 0; l < n; l++)
     {
-      cout << "a"
-           << "[" << l << "]"
-           << "=" << a[l] << endl;
+      cout << "a" << "[" << l << "]"<< "=" << a[l] << endl;
     }
   }
   cout << "The array elements after insertion are :" << endl;
@@ -32,9 +30,7 @@ int main()
   n++;
   for (int k = 0; k < n; k++)
   {
-    cout << "a"
-         << "[" << k << "]"
-         << "=" << a[k] << endl;
+    cout << "a"<< "[" << k << "]" << "=" << a[k] << endl;
   }
 
   return 0;
